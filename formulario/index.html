@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Formulário</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem totam recusandae rerum sed velit, expedita facere distinctio at eos iusto cupiditate officiis minima, unde quis magnam omnis et illum cum.</p>
+  </header>
+    <main>
+      <form method="post" action="blablabla.php" enctype="multipart/form-data" >
+          <input type="hidden" name="country" value="BR">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>
+                Primeiro Nome: <br>
+                <input type="text" name="name" required >
+            </label> <br>
+            <label>
+                Sobrenome: <br>
+                <input type="text" name="lastname" >
+            </label> <br>
+            Foto: <br>
+                <input type="file" name="photo"
+                accept="image/*" >
+            </label> <br>
+      
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Dados Profissionais</legend>
+            <label>
+      
+              Primeiro da empresa: <br>
+              <input type="text" name="companyname">
+      
+                </label>
+                <br>
+                <label>
+              Cargo na Empresa: <br>
+              <input type="text" name="companyjobtitle">
+                </label>
+      
+        </fieldset>
+        <input type="submit" value="Cadastrar">
+      </form>
+    </main>
+    <footer>
+      <p>Criado por Lucas Oliveira dos Santos</p>
+    </footer>
+</body>
+</html>
